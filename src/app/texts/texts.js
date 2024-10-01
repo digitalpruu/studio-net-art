@@ -1,36 +1,37 @@
-const title = "Titulo del emprendimiento";
-const email = "Email del emprendimiento";
+const title = "Studio Net Art";
+const slogan = "El diseño que transforma el futuro";
+const email = "contacto@studionetart.com";
 const mensajeWhatsApp = encodeURIComponent(
-    `¡Hola! Estoy muy interesado en tus productos de ${title} y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!`
+    `¡Hola! Estoy interesado en los servicios de ${title} y me gustaría obtener más información. ¡Gracias!`
 );
-const numeroWhatsApp = "Numero del emprendimiento";
+const numeroWhatsApp = "3502042085";
 const textos = {
     index: {
-        title: title,
+        title: `${title}`,
+        slogan: `${slogan}`,
     },
     homeContent: {
-        title: title,
+        title: `${title}`,
     },
     about: {
-        description1: "Descripción del emprendimiento parrafo uno",
-        description2: "Descripcion del emprendimiento parrafo dos"
+        description1: "*Studio Net Art* es una empresa especializada en diseño y animación digital. Con un enfoque en la creación visual, transformamos ideas en experiencias dinámicas.",
+        description2: "Nuestro equipo de profesionales está comprometido en crear soluciones visuales que no solo destaquen, sino que también marquen la diferencia en la cultura y el futuro.",
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
-        email: email
+        email: email,
     },
     footer: {
-        slogan:{
-            p1: "slogan del emprendimiento parrafo uno",
-            p2: "slogan del emprendimiento parrafo dos"
+        slogan: {
+            p1: "Studio Net Art",
+            p2: slogan,
         },
-        address: "Dirección del emprendimiento",
+        address: "",
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/",
-        whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
+        facebook: "https://www.facebook.com/profile.php?id=100086912767708",
+        instagram: "https://www.instagram.com/studionetart",
+        whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
     },
-
 };
 export default textos;
