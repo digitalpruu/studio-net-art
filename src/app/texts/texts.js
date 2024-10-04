@@ -29,8 +29,8 @@ const textos = {
         address: "",
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/profile.php?id=100086912767708",
-        instagram: "https://www.instagram.com/studionetart",
+        facebook: "https://www.facebook.com/profile.php?id=100086912767708&mibextid=LQQJ4d",
+        instagram: "https://www.instagram.com/studionetart?igsh=YzZzdzNyd292cDR4&utm_source=qr",
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
     },
 };
